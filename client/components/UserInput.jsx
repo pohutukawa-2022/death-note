@@ -1,16 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import UserOutput from './UserOutput'
+
 function UserInput() {
+  const [form, setForm] = useState()
+
+  
+
   return (
     <>
       <h1>USER INPUT</h1>
       <form>
         <input
-          placeholder="this is the input"
+          placeholder="Type your message here"
           type="text"
           name="UserInput"
-          // onChange={handleUserInput}
-          // value={form.input}
+          onChange={handleUserInput}
+          value={form.input}
         />
       </form>
 
