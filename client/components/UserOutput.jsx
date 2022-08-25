@@ -1,15 +1,19 @@
 import React from 'react'
 
 function UserOutput(props) {
-  console.log(props)
+  const unsplitNote = props.data
+  const splitNote = unsplitNote.split('')
 
-  // spilt method of props
+  console.log('This is the split note array:', splitNote)
 
   return (
     <div className="output_container">
       <p>{props.data}</p>
+      <p style= {font: 'blah', }></p>
     </div>
   )
 }
 
 export default UserOutput
+
+
