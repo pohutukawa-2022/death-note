@@ -1,20 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import UserOutput from './UserOutput'
+
 function UserInput() {
+  const [note, setNote] = useState('')
+
+  function handleUserInput(event) {
+    setNote(event.target.value)
+    console.log(note)
+  }
+
   return (
     <>
-      <h1>USER INPUT</h1>
+      <UserOutput data={note} />
       <form>
         <input
-          placeholder="this is the input"
           type="text"
           name="UserInput"
-          // onChange={handleUserInput}
+          onChange={handleUserInput}
           // value={form.input}
         />
       </form>
-
-      <UserOutput />
     </>
   )
 }
