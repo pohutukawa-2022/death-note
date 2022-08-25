@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Needleteeth Psycho';
+  src: url('./fonts/Needleteeth-Psycho.woff') format('woff');
+}
+
+
+h1 {
+  font-family: "Needleteeth Psycho";
+  font-size: 72px;
+
+}
+
+
+body { 
+  background-image: url(./images/spooky-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
