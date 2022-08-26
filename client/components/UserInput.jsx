@@ -6,7 +6,6 @@ function UserInput() {
 
   function handleUserInput(event) {
     setNote(event.target.value)
-    console.log(note)
   }
 
   return (
