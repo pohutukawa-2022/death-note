@@ -3,16 +3,40 @@
   src: url('./fonts/Needleteeth-Psycho.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'bloddy';
+  src: url('./fonts/BLOODY.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FirecatMedium';
+  src: url('./fonts/FirecatMedium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Headhunter-Regular';
+  src: url('./fonts/Headhunter-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'plasdrip';
+  src: url('./fonts/plasdrip.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'plasdrpe';
+  src: url('./fonts/plasdrpe.woff') format('woff');
+}
 
 h1 {
   font-family: "Needleteeth Psycho";
-  font-size: 72px;
+  font-size: 90px;
 
 }
 
 h4 {
-  /* font-family: "Needleteeth Psycho"; */
-  font-size: 16px;
+  font-size: 20px;
+  color: red;
 }
 
 body { 
@@ -29,13 +53,16 @@ body {
 }
 
 .output_container {
-  width: 750px;
+  width: 1000px;
   height: 300px;
   background-color: azure;
   margin-bottom: 40px;
+
 }
 input {
-  width: 750px;
+  width: 1000px;
   height: 30px;
   background-color: azure;
+  opacity: 70%;
+  border: 0px solid black;
 }
