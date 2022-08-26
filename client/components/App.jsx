@@ -4,7 +4,7 @@ import UserInput from './UserInput'
 const App = () => {
   return (
     <>
-      <h1> DEATHNOTE </h1>
+      <h1> DEATH NOTE </h1>
       <UserInput />
     </>
   )

@@ -11,6 +11,7 @@ function UserInput() {
   return (
     <>
       <UserOutput data={note} />
+      <h4>enter your threat below</h4>
       <form>
         <input
           type="text"
@@ -24,12 +25,3 @@ function UserInput() {
 }
 
 export default UserInput
-
-// function getStyle(style) {
-//   let style2 = styles[style]
-//   const num = Math.floor(Math.random() * style2.length)
-
-//   return style2[num]
-// }
-
-// const splitNote = unsplitNote.split('')

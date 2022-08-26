@@ -14,6 +14,10 @@ h1 {
 
 }
 
+h4 {
+  /* font-family: "Needleteeth Psycho"; */
+  font-size: 16px;
+}
 
 body { 
   background-image: url(./images/spooky-background.jpg);
@@ -21,3 +25,23 @@ body {
   background-repeat: no-repeat;
   color: white;
 }
+
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.output_container {
+  width: 750px;
+  height: 300px;
+  background-color: azure;
+  margin-bottom: 40px;
+}
+input {
+  width: 750px;
+  height: 30px;
+  background-color: azure;
+}
+
