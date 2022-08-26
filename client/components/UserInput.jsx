@@ -12,6 +12,7 @@ function UserInput() {
   return (
     <>
       <UserOutput data={note} />
+      <h4>enter your threat below</h4>
       <form>
         <input
           type="text"
@@ -25,4 +26,3 @@ function UserInput() {
 }
 
 export default UserInput
-//
