@@ -14,7 +14,7 @@ function UserOutput(props) {
 
   const arr = splitNote.map((letter, i) => {
     if (letter === ' ') {
-      return ' '
+      return <p key={letter}>&nbsp;</p>
     } else {
       return (
         <p

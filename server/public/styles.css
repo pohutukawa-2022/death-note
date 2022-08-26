@@ -4,8 +4,10 @@
 }
 
 p { 
-  margin: 0;
-  max-width: 20px;
+  margin: 5px;
+  width: 20px;
+  height: 30px;
+  line-height: 1;
 }
 
 h1 {
@@ -34,8 +36,9 @@ body {
 }
 
 .output_container {
-  width: 750px;
-  height: 300px;
+  display: flex;
+  width: 800px;
+  height:300px;
   background-color: azure;
   margin-bottom: 40px;
 }

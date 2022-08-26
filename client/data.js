@@ -18,8 +18,9 @@ export default {
     '28px',
     '30px',
     '32px',
+    '',
   ],
-  font_color: ['black', 'red', 'green', 'yellow'],
+  font_color: ['white'],
   background_color: ['#FF5733', '#33FF61', '#147CC4', '#AF3200', '#E51125'],
   rotate: [
     'rotate(-10deg)',
