@@ -1,25 +1,28 @@
 import React, { useState } from 'react'
 import UserOutput from './UserOutput'
+let intermediaryArray = []
 
 function UserInput() {
-  const [note, setNote] = useState('')
+  const [note, setNote] = useState([])
 
   function handleUserInput(event) {
-    setNote(event.target.value)
-    console.log('currentState:', note)
+    const input = event.target.value
+
+    intermediaryArray.push(input[input.length - 1])
+    setNote(intermediaryArray)
   }
 
   return (
     <>
-      <UserOutput data={note} />
       <form>
-        <input
-          type="text"
-          name="UserInput"
-          onChange={handleUserInput}
-          // value={form.input}
-        />
+        <input type="text" name="UserInput" onChange={handleUserInput} />
       </form>
+      <ul>
+        {note.map((letter) => {
+          console.log(letter)
+          return <UserOutput key={letter} data={letter} />
+        })}
+      </ul>
     </>
   )
 }
