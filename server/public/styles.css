@@ -3,6 +3,10 @@
   src: url('./fonts/Needleteeth-Psycho.woff') format('woff');
 }
 
+p { 
+  margin: 0;
+  max-width: 20px;
+}
 
 h1 {
   font-family: "Needleteeth Psycho";

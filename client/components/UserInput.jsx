@@ -6,10 +6,6 @@ function UserInput() {
 
   function handleUserInput(event) {
     setNote(event.target.value)
-<<<<<<< HEAD
-=======
-    console.log('currentState:', note)
->>>>>>> dd68c256f0c1c2021fe3a9926747f04c1f5d77de
   }
 
   return (
